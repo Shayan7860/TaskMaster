@@ -1,0 +1,57 @@
+/* Main body styles */
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-size: 16px; /* Standard text size */
+  line-height: 1.6; /* Spacing between lines for better readability */
+  color: #333; /* Dark gray for better readability */
+  background: #f4f4f9; /* Light gray background for less strain on eyes */
+  margin: 0;
+  padding: 0;
+}
+
+/* General layout improvements */
+.container {
+  width: 80%;
+  margin: 0 auto; /* Center the container */
+  padding: 20px;
+}
+
+/* Task item styles */
+.task {
+  border: 1px solid #ddd; /* Lighter border color */
+  background-color: #ffffff; /* White background for tasks */
+  padding: 15px 20px; /* More padding for better text display */
+  margin-top: 10px; /* Increased margin for better separation */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow for 3D effect */
+  border-radius: 5px; /* Rounded corners */
+  transition: box-shadow 0.3s ease-in-out; /* Smooth transition for hover effect */
+}
+
+.task:hover {
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2); /* More pronounced shadow on hover */
+}
+
+/* Task title styles */
+.task-title {
+  font-size: 18px; /* Larger text for titles */
+  font-weight: bold;
+  margin-bottom: 10px; /* Space between title and content */
+  color: #0056b3; /* Blue for titles to stand out */
+}
+
+/* Additional elements like buttons */
+.button {
+  display: inline-block;
+  padding: 10px 15px;
+  margin-top: 10px;
+  background-color: #007bff; /* Bootstrap primary button color */
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
